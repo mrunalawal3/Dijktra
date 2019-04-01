@@ -1,0 +1,18 @@
+san-rafael a 12 oakland 18 END
+a san-rafael 12 daly-city 3 san-francisco 3 END
+daly-city a 3 san-francisco 4 b 19 END
+san-francisco a 3 daly-city 4 oakland 7 san-mateo 21 END
+oakland san-rafael 18 san-francisco 7 san-lorenzo 18 dublin 31 END
+b daly-city 19 san-mateo 4 c 7 END
+san-mateo san-francisco 21 b 4 redwood-city 6 hayward 13 END
+san-lorenzo oakland 18 dublin 12 hayward 3 END
+dublin oakland 31 san-lorenzo 12 san-jose 35 END
+c b 7 redwood-city 5 cupertino 14 END
+redwood-city san-mateo 6 c 5 palo-alto 6 END
+hayward san-mateo 13 san-lorenzo 3 fremont 9 END
+fremont hayward 9 palo-alto 9 san-jose 24 END
+palo-alto redwood-city 6 fremont 9 mountain-view 6 END
+mountain-view palo-alto 6 cupertino 6 san-jose 8 END
+cupertino c 14 mountain-view 6 san-jose 7 END
+san-jose dublin 35 fremont 24 mountain-view 8 cupertino 7 END
+mumbai a 10 END
